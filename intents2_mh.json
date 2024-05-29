@@ -1,0 +1,365 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["How do I greet someone?", "What are some ways to say hello?", "When is it appropriate to say good morning?"],
+        "responses": ["Hi there!", "Hello!", "Good [time of day]!"],
+        "context": ""
+      },
+      {
+        "tag": "gratitude",
+        "patterns": ["When should I express gratitude?", "How can I show appreciation?", "What are some ways to say thank you?"],
+        "responses": ["You're welcome!", "Glad to help!", "Anytime!"],
+        "context": ""
+      },
+      {
+        "tag": "farewell",
+        "patterns": ["How do I say goodbye?", "When is it appropriate to say see you later?", "What are some polite ways to take leave?"],
+        "responses": ["Goodbye!", "Take care!", "See you soon!"],
+        "context": ""
+      },
+      {
+        "tag": "self_affirmation",
+        "patterns": ["How can I affirm myself?", "What are some positive statements I can say to myself?", "How do I build self-belief?"],
+        "responses": ["You are indeed!", "Absolutely!", "That's the spirit!"],
+        "context": ""
+      },
+      {
+        "tag": "stress_management",
+        "patterns": ["How can I manage stress?", "What techniques can help me relieve stress?", "What should I do if I feel overwhelmed?"],
+        "responses": ["Try deep breathing exercises.", "Mindfulness meditation can help.", "Take breaks and prioritize tasks."],
+        "context": ""
+      },
+      {
+        "tag": "anxiety_relief",
+        "patterns": ["How do I deal with anxiety?", "What can I do to calm down when anxious?", "What strategies help with anxiety?"],
+        "responses": ["Focus on your breathing.", "Challenge negative thoughts.", "Practice grounding techniques."],
+        "context": ""
+      },
+      {
+        "tag": "depression_support",
+        "patterns": ["How do I cope with depression?", "What can I do to lift my mood?", "Where can I find support for feeling hopeless?"],
+        "responses": ["Engage in activities you enjoy.", "Reach out to a trusted person for support.", "Consider therapy or counseling."],
+        "context": ""
+      },
+      {
+        "tag": "loneliness",
+        "patterns": ["How do I overcome loneliness?", "What strategies help with feeling isolated?", "Where can I find connection if I'm lonely?"],
+        "responses": ["Connect with friends or family.", "Join a club or group with shared interests.", "Volunteer and meet new people."],
+        "context": ""
+      },
+      {
+        "tag": "anger_management",
+        "patterns": ["How can I control anger?", "What should I do if I get angry easily?", "How do I deal with anger in a healthy way?"],
+        "responses": ["Practice relaxation techniques.", "Communicate assertively rather than aggressively.", "Take a timeout when you feel angry."],
+        "context": ""
+      },
+      {
+        "tag": "self_esteem_boost",
+        "patterns": ["How do I improve self-esteem?", "What steps can I take to feel better about myself?", "How do I gain confidence?"],
+        "responses": ["Focus on your strengths.", "Set realistic goals and celebrate achievements.", "Practice self-compassion and positive self-talk."],
+        "context": ""
+      },
+      {
+        "tag": "coping_strategies",
+        "patterns": ["What coping mechanisms help during tough times?", "How do I deal with setbacks?", "What should I do if I feel overwhelmed by life?"],
+        "responses": ["Break tasks into smaller steps.", "Seek social support from loved ones.", "Remember that setbacks are temporary and can be overcome."],
+        "context": ""
+      },
+      {
+        "tag": "sleep_issues",
+        "patterns": ["How can I improve my sleep?", "What remedies are there for insomnia?", "What should I do if I can't sleep at night?"],
+        "responses": ["Establish a consistent sleep schedule.", "Create a relaxing bedtime routine.", "Avoid caffeine and electronics before bed."],
+        "context": ""
+      },
+      {
+        "tag": "therapy_options",
+        "patterns": ["What are the types of therapy?", "How can therapy help me?", "Should I consider therapy?"],
+        "responses": ["There are various types such as CBT, DBT, and psychotherapy.", "Therapy can provide tools for managing emotions and improving well-being.", "It could be beneficial to explore therapy options with a mental health professional."],
+        "context": ""
+      },
+      {
+        "tag": "meditation_guidance",
+        "patterns": ["How do I meditate?", "Where can I find guided meditation?", "What are the benefits of meditation?"],
+        "responses": ["Start with deep breathing and focus on the present moment.", "Guided meditations can help beginners.", "Meditation can reduce stress, improve focus, and promote emotional well-being."],
+        "context": ""
+      },
+      {
+        "tag": "positive_self_talk",
+        "patterns": ["How do I stop negative self-talk?", "What can I do to replace negative thoughts?", "How do I stop being hard on myself?"],
+        "responses": ["Challenge negative thoughts with evidence and alternative perspectives.", "Practice affirmations and self-compassion.", "Be kind to yourself as you would to a friend."],
+        "context": ""
+      },
+      {
+        "tag": "mindfulness_practices",
+        "patterns": ["What is mindfulness?", "How do I live mindfully?", "What are some mindfulness exercises?"],
+        "responses": ["Mindfulness is the practice of being present and aware without judgment.", "Incorporate mindfulness into daily activities like eating and walking.", "Focus on sensations, thoughts, and emotions as they arise."],
+        "context": ""
+      },
+      {
+        "tag": "social_support",
+        "patterns": ["Why is social support important?", "How do I build a support network?", "What should I do if I feel alone?"],
+        "responses": ["Social support can provide comfort, advice, and a sense of belonging.", "Nurture existing relationships and seek new connections.", "Don't hesitate to reach out to trusted friends, family, or professionals."],
+        "context": ""
+      },
+      {
+        "tag": "healthy_lifestyle",
+        "patterns": ["What are the benefits of a healthy lifestyle?", "How can I improve my overall well-being?", "How do I start living healthier?"],
+        "responses": ["Regular exercise, balanced diet, and adequate sleep are key components.", "Small changes like staying hydrated and reducing screen time can make a big difference.", "Prioritize self-care and listen to your body's needs."],
+        "context": ""
+      },
+      {
+        "tag": "boundaries_setting",
+        "patterns": ["How do I set personal boundaries?", "What's the best way to say no?", "What if I struggle with boundaries?"],
+        "responses": ["Communicate your needs and limits clearly.", "Practice assertiveness and prioritize your well-being.", "Remember that it's okay to prioritize yourself and say no when necessary."],
+        "context": ""
+      },
+      {
+        "tag": "emotional_regulation",
+        "patterns": ["How do I regulate my emotions?", "What should I do if I feel overwhelmed by emotions?", "How can I manage intense feelings?"],
+        "responses": ["Identify triggers and coping strategies that work for you.", "Practice relaxation techniques like deep breathing or progressive muscle relaxation.", "Consider journaling or talking to a therapist about your emotions."],
+        "context": ""
+      },
+      {
+        "tag": "stress_identification",
+        "patterns": ["How do I recognize stress?", "What are the signs of stress?", "How can I tell if I'm stressed?"],
+        "responses": ["Pay attention to physical, emotional, and behavioral signs such as tension, irritability, and changes in appetite.", "Track your stressors and reactions to better understand your stress patterns.", "Seek support if you're feeling overwhelmed or unable to cope."],
+        "context": ""
+      },
+      {
+        "tag": "support_groups",
+        "patterns": ["Why are support groups beneficial?", "How do I join a support group?", "Where can I find others who understand what I'm going through?"],
+        "responses": ["Support groups provide empathy, validation, and shared experiences.", "Look for local or online groups related to your interests or struggles.", "You're not alone, and joining a support group can offer valuable connections and resources."],
+        "context": ""
+      },
+      {
+        "tag": "work_life_balance",
+        "patterns": ["How do I balance work and personal life?", "How can I avoid burnout?", "What should I do if I feel overwhelmed by work?"],
+        "responses": ["Set boundaries between work and personal time.", "Prioritize tasks and delegate when possible.", "Schedule regular breaks and make time for activities you enjoy outside of work."],
+        "context": ""
+      },
+      {
+        "tag": "goal_setting",
+        "patterns": ["How do I set achievable goals?", "What can I do to stay motivated?", "What if I don't know what I want to achieve?"],
+        "responses": ["Set SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound.", "Break big goals into smaller steps and celebrate progress along the way.", "Reflect on your values and priorities to set meaningful goals."],
+        "context": ""
+      },
+      {
+        "tag": "procrastination_help",
+        "patterns": ["How can I overcome procrastination?", "What strategies help with procrastination?", "Why do I keep putting things off?"],
+        "responses": ["Break tasks into smaller, manageable steps.", "Set deadlines and hold yourself accountable.", "Identify and challenge procrastination triggers or underlying fears."],
+        "context": ""
+      },
+      {
+        "tag": "relationship_issues",
+        "patterns": ["How do I deal with relationship problems?", "What can I do to improve communication in relationships?", "What if I'm having issues with my partner/family/friends?"],
+        "responses": ["Open and honest communication is key.", "Seek couples or family therapy to address underlying issues.", "Set boundaries and prioritize your well-being in relationships."],
+        "context": ""
+      },
+      {
+        "tag": "trauma_recovery",
+        "patterns": ["How do I heal from trauma?", "Where can I find trauma therapy?", "What if I'm struggling with past experiences?"],
+        "responses": ["Trauma therapy can help process and heal from past experiences.", "Practice self-care and be patient with yourself.", "You're not alone, and there are resources and professionals available to support you."],
+        "context": ""
+      },
+      {
+        "tag": "self_compassion",
+        "patterns": ["How do I practice self-compassion?", "What can I do to be kinder to myself?", "How do I stop being too hard on myself?"],
+        "responses": ["Treat yourself with the same kindness and understanding you would offer to a friend.", "Acknowledge your humanity and imperfections without judgment.", "Practice self-compassionate phrases and actions in moments of struggle."],
+        "context": ""
+      },
+      {
+        "tag": "creativity_expression",
+        "patterns": ["How can I use creativity for self-expression?", "What techniques help unleash creativity?", "What if I feel stuck creatively?"],
+        "responses": ["Try writing, drawing, painting, or any other form of artistic expression.", "Engage in activities that inspire and stimulate your imagination.", "Don't worry about perfection; focus on the process and enjoyment of creating."],
+        "context": ""
+      },
+      {
+        "tag": "mind-body_connection",
+        "patterns": ["How does the mind-body connection work?", "What is holistic well-being?", "How do I feel more connected mentally and physically?"],
+        "responses": ["Mind-body practices like yoga, tai chi, and qigong can promote holistic well-being.", "Take care of your physical health to support mental and emotional well-being.", "Practice mindfulness to cultivate awareness of the mind-body connection."],
+        "context": ""
+      },
+      {
+        "tag": "resilience_building",
+        "patterns": ["How do I develop resilience?", "How can I bounce back from setbacks?", "What should I do if I feel like giving up?"],
+        "responses": ["Focus on strengths and past successes.", "View challenges as opportunities for growth and learning.", "Seek support from others and practice self-care during tough times."],
+        "context": ""
+      },
+      {
+        "tag": "seeking_help",
+        "patterns": ["When should I seek professional help?", "Is therapy the right choice for me?", "What if I'm hesitant to see a therapist?"],
+        "responses": ["Consider therapy if you're struggling to cope, experiencing persistent distress, or noticing interference in daily functioning.", "Therapy can provide tools, support, and insight to improve well-being.", "It's okay to ask for help, and reaching out is a courageous step toward healing."],
+        "context": ""
+      },
+      {
+        "tag": "addiction_support",
+        "patterns": ["How do I recover from addiction?", "Where can I find addiction therapy?", "What if I'm struggling with substance abuse?"],
+        "responses": ["Seek professional help and support groups for addiction recovery.", "Practice self-care and develop healthy coping mechanisms.", "You're not alone, and there are resources and professionals available to support your recovery journey."],
+        "context": ""
+      },
+      {
+        "tag": "eating_disorder_recovery",
+        "patterns": ["How do I heal from eating disorders?", "Where can I find eating disorder therapy?", "What if I'm struggling with disordered eating?"],
+        "responses": ["Seek specialized therapy and medical support for eating disorder recovery.", "Focus on self-compassion and challenge harmful thoughts and behaviors.", "Recovery is possible, and you deserve support and healing."],
+        "context": ""
+      },
+      {
+        "tag": "body_positivity",
+        "patterns": ["How do I embrace body positivity?", "What strategies help overcome body image issues?", "What if I struggle with self-esteem due to my appearance?"],
+        "responses": ["Focus on what your body can do rather than how it looks.", "Surround yourself with positive influences and challenge societal beauty standards.", "Practice self-love and gratitude for your body's abilities and uniqueness."],
+        "context": ""
+      },
+      {
+        "tag": "career_counseling",
+        "patterns": ["How do I find career guidance?", "What can I do to find a fulfilling career?", "What if I'm unsure about my career path?"],
+        "responses": ["Reflect on your interests, values, and skills to identify potential career paths.", "Seek guidance from career counselors, mentors, or informational interviews.", "Consider career assessments and explore various opportunities to find a fulfilling career."],
+        "context": ""
+      },
+      {
+        "tag": "financial_wellness",
+        "patterns": ["How do I manage financial stress?", "What are some budgeting tips?", "What should I do if I'm worried about money?"],
+        "responses": ["Create a budget and prioritize essential expenses.", "Seek financial advice and resources for managing debt and saving.", "Focus on what you can control and take small steps toward financial stability."],
+        "context": ""
+      },
+      {
+        "tag": "parenting_support",
+        "patterns": ["Where can I find parenting advice?", "How do I balance parenting and self-care?", "What should I do if I'm overwhelmed as a parent?"],
+        "responses": ["Practice self-care and prioritize your well-being as a parent.", "Seek support from other parents, support groups, or parenting classes.", "Remember that it's okay to ask for help and take breaks when needed."],
+        "context": ""
+      },
+      {
+        "tag": "student_mental_health",
+        "patterns": ["Where can I get support as a student?", "How do I cope with academic stress?", "What should I do if I'm struggling with school?"],
+        "responses": ["Reach out to counselors or mental health services provided by your school.", "Practice self-care and time management strategies.", "Remember that academic struggles are temporary, and it's okay to ask for help."],
+        "context": ""
+      },
+      {
+        "tag": "elderly_mental_health",
+        "patterns": ["How can seniors find support?", "What resources are available for combating loneliness in older adults?", "What should I do if I'm struggling with aging?"],
+        "responses": ["Stay connected with friends, family, and community activities.", "Engage in hobbies and activities that bring joy and fulfillment.", "Seek support from healthcare professionals or counselors specializing in geriatric mental health."],
+        "context": ""
+      },
+      {
+        "tag": "medication_management",
+        "patterns": ["How do I manage my medications?", "What are some tips for medication adherence?", "What should I do if I'm struggling to keep up with my prescriptions?"],
+        "responses": ["Create a medication schedule and use pill organizers or reminder apps.", "Communicate with your healthcare provider about any concerns or side effects.", "Seek support from pharmacists or healthcare professionals for medication management strategies."],
+        "context": ""
+      },
+      {
+        "tag": "mindfulness_in_children",
+        "patterns": ["How can I teach mindfulness to kids?", "What are the benefits of mindfulness for children?", "What should I do if my child struggles with anxiety?"],
+        "responses": ["Practice mindfulness activities together, such as deep breathing or guided imagery.", "Encourage open communication and validate your child's feelings.", "Seek resources and support from child psychologists or mindfulness programs for kids."],
+        "context": ""
+      },
+      {
+        "tag": "online_therapy",
+        "patterns": ["What are the advantages of online therapy?", "How do I find an online therapist?", "Why should I choose online counseling?"],
+        "responses": ["Online therapy offers convenience, accessibility, and flexibility for scheduling appointments.", "You can receive therapy from the comfort of your own home, eliminating travel time and logistical barriers.", "Research shows that teletherapy can be as effective as in-person therapy for many mental health concerns."],
+        "context": ""
+      },
+      {
+        "tag": "art_therapy",
+        "patterns": ["What are the benefits of art therapy?", "How can I find an art therapist?", "Why should I explore art as therapy?"],
+        "responses": ["Art therapy can promote self-expression, stress relief, and emotional healing.", "Look for licensed art therapists or art therapy programs in your area.", "You don't need to be an artist to benefit from art therapy; it's about the process of creating and reflecting."],
+        "context": ""
+      },
+      {
+        "tag": "music_therapy",
+        "patterns": ["What are the benefits of music therapy?", "How do I find a music therapist?", "Why should I use music for healing?"],
+        "responses": ["Music therapy can reduce stress, improve mood, and enhance communication and social skills.", "Search for board-certified music therapists or music therapy programs in your area.", "You can explore music therapy through individual sessions, group sessions, or self-guided activities."],
+        "context": ""
+      },
+      {
+        "tag": "animal_assisted_therapy",
+        "patterns": ["What are the benefits of animal-assisted therapy?", "How can I find an animal therapist?", "Why should I incorporate animals into my therapy?"],
+        "responses": ["Animal-assisted therapy can reduce stress, promote relaxation, and increase social interaction and communication.", "Look for certified therapy animals and practitioners trained in animal-assisted therapy.", "Interacting with animals can provide comfort, companionship, and emotional support during therapy sessions."],
+        "context": ""
+      },
+      {
+        "tag": "teletherapy_benefits",
+        "patterns": ["Why choose teletherapy?", "What are the advantages of teletherapy?", "Why should I consider online counseling?"],
+        "responses": ["Teletherapy offers convenience, accessibility, and flexibility for scheduling appointments.", "You can receive therapy from the comfort of your own home, eliminating travel time and logistical barriers.", "Research shows that teletherapy can be as effective as in-person therapy for many mental health concerns."],
+        "context": ""
+      },
+      {
+        "tag": "mindfulness_apps",
+        "patterns": ["What are the best mindfulness apps?", "Where can I find guided meditation apps?", "How do I practice mindfulness on my phone?"],
+        "responses": ["Popular mindfulness apps include Headspace, Calm, and Insight Timer.", "Explore different apps to find the features and guided meditations that resonate with you.", "Using mindfulness apps can make it easier to incorporate meditation and relaxation exercises into your daily routine."],
+        "context": ""
+      },
+      {
+        "tag": "journaling_benefits",
+        "patterns": ["What are the benefits of journaling?", "How do I start journaling?", "Why should I journal for mental health?"],
+        "responses": ["Journaling can help clarify thoughts and emotions, reduce stress, and promote self-awareness and insight.", "Start by setting aside time each day to write freely without judgment or censorship.", "Experiment with different journaling prompts, formats, and techniques to find what works best for you."],
+        "context": ""
+      },
+      {
+        "tag": "mindful_eating",
+        "patterns": ["What is mindful eating?", "How do I practice mindful eating?", "Why should I eat mindfully?"],
+        "responses": ["Mindful eating involves paying attention to the sensory experience of eating and being fully present in the moment.", "Slow down, savor each bite, and notice the flavors, textures, and sensations of your food.", "Mindful eating can help improve digestion, prevent overeating, and cultivate a healthier relationship with food."],
+        "context": ""
+      },
+      {
+        "tag": "guided_relaxation",
+        "patterns": ["What is guided relaxation?", "How do I practice guided relaxation?", "Why should I try guided relaxation?"],
+        "responses": ["Guided relaxation involves following verbal instructions to induce a state of relaxation and calmness.", "Find guided relaxation exercises online, in apps, or through therapists or meditation instructors.", "Guided relaxation can reduce stress, promote relaxation, and improve overall well-being."],
+        "context": ""
+      },
+      {
+        "tag": "mindful_walking",
+        "patterns": ["What is mindful walking?", "How do I practice mindful walking?", "Why should I try mindful walking?"],
+        "responses": ["Mindful walking involves paying attention to the sensations, movements, and surroundings of walking with full awareness.", "Slow down your pace, notice your breath and body, and tune into the sights, sounds, and smells around you.", "Mindful walking can reduce stress, increase present-moment awareness, and enhance the experience of being outdoors."],
+        "context": ""
+      },
+      {
+        "tag": "breathing_exercises",
+        "patterns": ["What are breathing exercises?", "How do I practice breathing exercises?", "Why should I do breathing exercises?"],
+        "responses": ["Breathing exercises involve intentional manipulation of the breath to promote relaxation, stress relief, and emotional regulation.", "Try deep breathing, diaphragmatic breathing, or alternate nostril breathing for relaxation and calmness.", "Breathing exercises can help reduce anxiety, lower blood pressure, and improve overall well-being."],
+        "context": ""
+      },
+      {
+        "tag": "progressive_muscle_relaxation",
+        "patterns": ["What is progressive muscle relaxation?", "How do I practice progressive muscle relaxation?", "Why should I try progressive muscle relaxation?"],
+        "responses": ["Progressive muscle relaxation involves tensing and relaxing different muscle groups to release physical tension and induce relaxation.", "Start with your feet and work your way up through the body, tensing and relaxing each muscle group for a few seconds.", "Progressive muscle relaxation can reduce stress, promote relaxation, and improve sleep quality."],
+        "context": ""
+      },
+      {
+        "tag": "visualization_techniques",
+        "patterns": ["What are visualization techniques?", "How do I practice visualization?", "Why should I try visualization?"],
+        "responses": ["Visualization techniques involve creating mental images or scenarios to promote relaxation, stress relief, and goal achievement.", "Imagine a peaceful scene, a desired outcome, or a successful performance in vivid detail.", "Visualization can enhance motivation, build confidence, and reduce anxiety and stress."],
+        "context": ""
+      },
+      {
+        "tag": "goal_setting_tips",
+        "patterns": ["How do I set achievable goals?", "What are some tips for setting goals?", "Why is goal setting important?"],
+        "responses": ["Set SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound.", "Break big goals into smaller steps and celebrate progress along the way.", "Goal setting provides direction, motivation, and a sense of accomplishment."],
+        "context": ""
+      },
+      {
+        "tag": "stress_reduction_tips",
+        "patterns": ["How do I reduce stress?", "What are some stress reduction techniques?", "Why is it important to manage stress?"],
+        "responses": ["Practice relaxation techniques like deep breathing, meditation, or yoga.", "Engage in regular physical activity, prioritize sleep, and maintain a healthy lifestyle.", "Chronic stress can negatively impact physical and mental health, so it's important to find effective stress management strategies."],
+        "context": ""
+      },
+      {
+        "tag": "anxiety_coping_strategies",
+        "patterns": ["How do I cope with anxiety?", "What are some anxiety management techniques?", "Why is it important to manage anxiety?"],
+        "responses": ["Practice deep breathing, mindfulness, or progressive muscle relaxation.", "Challenge negative thoughts and cognitive distortions.", "Untreated anxiety can interfere with daily functioning and lead to other health problems, so it's important to develop coping strategies and seek support if needed."],
+        "context": ""
+      },
+      {
+        "tag": "self_care_ideas",
+        "patterns": ["What are some self-care ideas?", "How can I practice self-care?", "Why is self-care important?"],
+        "responses": ["Take a relaxing bath, read a book, or spend time in nature.", "Practice mindfulness, journaling, or creative expression.", "Self-care is essential for maintaining physical, emotional, and mental well-being, and it helps prevent burnout and improve overall quality of life."],
+        "context": ""
+      },
+      {
+        "tag": "relationship_building_tips",
+        "patterns": ["How do I build healthy relationships?", "What are some tips for improving relationships?", "Why is relationship building important?"],
+        "responses": ["Communicate openly and honestly, listen actively, and show empathy and respect.", "Set boundaries and prioritize quality time together.", "Healthy relationships provide support, connection, and a sense of belonging, which are essential for overall well-being."],
+        "context": ""
+      }
+    ]
+  }
+  
