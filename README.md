@@ -1,7 +1,7 @@
 # Mental Health Chatbot using NLP (RNN-LSTM & VanillaRNN)
 
-This repository contains the following:
+This repository contains:
 
-1. Building the Vanilla_RNN & RNN-LSTM models Files
+1. Building the Vanilla-RNN & RNN-LSTM models files
 2. Dataset
-3. Pretrained Models
+3. Pre-trained models
